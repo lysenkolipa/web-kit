@@ -1,0 +1,148 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.btn {
+  font-family: $ff-main-font;
+  color: #ffffff;
+  border: unset;
+  margin: 5px;
+}
+.btn-success {
+  background: #24aa98;
+  margin: auto 0;
+  &:hover {
+  background: #1a9385;
+  }
+}
+
+.btn-danger {
+  background: #db7560;
+  &:hover {
+    background: #c25842;
+  }
+}
+.btn-info {
+  background: $main-btn-color;
+  &:hover {
+    background: #5093b7;
+  }
+}
+.btn-disabled {
+  background: #b4bbc2;
+  &:hover {
+    background: #b4bbc2;
+  }
+}
+
+.btn-without-bg {
+  background:none;
+  font-family: $ff-main-font;
+  color: $main-btn-color;
+  display: block;
+  border: 2px solid $main-btn-color;
+}
+.btn-small-rounded-border {
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btn-rounded-border-left {
+  border-radius: 5px 0 0 5px;
+  margin: auto 0;
+}
+.btn-rounded-border-right {
+  border-radius: 0 5px 5px 0;
+  margin: auto 0;
+}
+.btn-round-l {
+  border-radius: 50% 50%;
+  width: 60px;
+
+}
+.btn-round-m {
+  border-radius: 50% 50%;
+  width: 48px;
+}
+.btn-round-s {
+  border-radius: 50% 50%;
+  width: 36px;
+}
+.btn-menu-m {
+  width: 48px;
+}
+.btn-menu-s {
+  width: 36px;
+}
+.btn-double {
+  display: flex;
+  justify-content: space-around;
+  width: 75px;
+}
+.btn-arrow-m {
+  position: relative;
+  display: block;
+  width: 75px;
+  border-radius: 5px 0 0 5px;
+  border:unset;
+  &:hover{ background: $hover-main-btn-color; }
+  &::after{
+    background:$main-btn-color;
+    content: "";
+    height: 35px;
+    margin-top: -19px;
+    position: absolute;
+    right: -17px;
+    top: 25px;
+    width: 35px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+  }
+  &:hover::after{
+    background: $hover-main-btn-color;
+  }
+
+}
+.btn-arrow-s {
+  position: relative;
+  display: block;
+  border-radius: 5px 0 0 5px;
+  &:hover{ background: $hover-main-btn-color; }
+  &::after{
+    background:$main-btn-color;
+    content: "";
+    height: 27px;
+    margin-top: -18px;
+    position: absolute;
+    right: -13px;
+    top: 22px;
+    width: 27px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+  }
+  &:hover::after{
+    background: $hover-main-btn-color;
+  }
+}
+.btn-border-right {
+  border-right: 2px solid $hover-secondary-btn-color;
+}
+.btn-disabled {
+  width:48px;
+  background: #c6ccd2;
+}
+.btn-without-bg_success {
+  border: 2px solid #24aa98;
+  background: unset;
+  color:#24aa98;
+}
+.btn-without-bg_warning {
+  border: 2px solid #d9c26c;
+  background: unset;
+  color:#d9c26c
+}
+.btn-inverse {
+  background: $inverse-color;
+  color: #ffffff;
+}

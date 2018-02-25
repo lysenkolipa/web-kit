@@ -1,0 +1,30 @@
+.popovers {
+  display: flex;
+  justify-content: space-between;
+  font-family: $ff-main-font;
+  margin-bottom: 10px;
+}
+
+.popover-inverse,
+.popover-default {
+  box-sizing: border-box;
+  width: 460px;
+  position: relative;
+  padding: 15px 68px 24px 26px;
+
+}
+.popover-inverse {
+  background: #383737;
+  color:#ffffff;
+}
+.popover-default {
+  border: 2px solid #383737;
+  color:#383737;
+}
+.btn-popover {
+  width: 80px;
+  &:hover {
+    background: #1a9385;
+    color: #ffffff;
+  }
+}

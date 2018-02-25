@@ -1,0 +1,23 @@
+.content--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+}
+
+//////////
+.rounded {
+  border-radius: 50px 50px 50px 50px;
+}
+.disabled {
+  border-color: #c6ccd2;
+}
+
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style:none;
+}

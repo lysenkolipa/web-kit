@@ -1,0 +1,16 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_container";
+@import "global/_sizes";
+@import "global/common";
+
+
+@import "base/style";
+@import "forms/style";
+
+
+

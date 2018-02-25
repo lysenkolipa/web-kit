@@ -1,0 +1,18 @@
+.textareas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.textarea {
+  width: 450px;
+  height: 143px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px;
+
+}
+.textarea-desabled {
+  border: 2px solid #c6ccd2;
+}
+.textarea-info {
+  border: 2px solid #65abd0;
+}
