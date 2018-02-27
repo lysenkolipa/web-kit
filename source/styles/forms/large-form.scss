@@ -1,0 +1,45 @@
+.large-form {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+  & button {
+    margin: 20px auto;
+  }
+  & .f-large-sign-in {
+    margin-top: 5px;
+  }
+}
+.form-wrapper-1-of-2 {
+  padding: 10px 10px;
+}
+
+.form-header {
+  position: relative;
+  color: #ffffff;
+  font-family: $ff-main-font;
+  text-align: center;
+  & img {
+    display: block;
+  }
+  &_link {
+    position: absolute;
+    content: '';
+    top: 15px;
+    right: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+.form-l-header_text {
+    position: absolute;
+    content: '';
+    top:59px;
+    left:166px;
+    font-size: 32px;
+    font-weight: 400;
+}
+form span {
+  color: #b4bbc2;
+}

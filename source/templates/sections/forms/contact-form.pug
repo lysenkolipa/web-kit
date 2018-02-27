@@ -1,0 +1,55 @@
+section.contact-form.container
+    .form-wrapper-2-of-3
+        .form-contact_header
+            span.form-contact_header-text CONTACT
+        form.form.form-contact
+            .form-contact_container
+                .form-contact_wrapper
+                    label(for="name") Name
+                    br
+                    input.f-contact-input(type="text" id="name" name="name" placeholder="Carlos Shorter")
+                .form-contact_wrapper
+                    label(for="email") E-mail
+                    br
+                    input.f-contact-input(type="email" id="email" name="email" placeholder="shotercarlos@gmail.com")
+            .form-contact_container
+                .form-contact_wrapper
+                    label(for="subject") Subject
+                    br
+                    input.f-contact-input(type="text" id="subject" name="subject" placeholder="Partnership")
+                .form-contact_wrapper
+                    label(for="budget") Select Budget
+                    br
+                    select.select.select-info.f-contact-select(id="budget")
+                        option $5.000 - $9.000
+                        option $10.000 - $15.000
+                        option $16.000 - $20.000
+
+            label(for="message") Message
+            br
+            textarea.form-contact_textarea-l(id="message") Just then her head struck against the roof of the hall: in fact she was now more
+                |than nine feet high, and she at once took up the little golden key and hurried off to the garden door.
+            .form-contact_container
+                .form-contact-check
+                    input(type="checkbox" id="send")
+                    label.checkbox-success(for="send") Send me a copy
+                button.btn.medium.rounded-border.btn-success(type="submit") Send
+
+    .form-wrapper-1-of-3
+        .form-contact_header
+            span.form-contact_header-text CONTACT
+        form.form.form-contact
+            .contact-form-wrapper
+                label(for="c-name") Name
+                br
+                input.f-contact-input(type="text" id="c-name" name="name" placeholder="Carlos Shorter")
+            .contact-form-wrapper
+                label(for="mail") E-mail
+                br
+                input.f-contact-input(type="email" id="mail" name="email" placeholder="shotercarlos@gmail.com")
+            .contact-form-wrapper
+                label(for="c-message") Message
+                br
+                textarea.form-contact_textarea-s(id="c-message") Just then her head struck against the roof of the hall: in fact she was now more
+                    | than nine feet high, and she at once took up the little golden key and hurried off to the garden door.
+            button.btn.medium.rounded-border.btn-success(type="submit") Send

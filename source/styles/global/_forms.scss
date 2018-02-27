@@ -1,0 +1,94 @@
+.form {
+  background: #f2f5f8;
+  padding: 31px 30px 30px 30px;
+  border-radius: 0 0 5px 5px;
+}
+
+.form-contact {
+  padding:  66px 30px 30px 31px;
+}
+.f-large {
+  width: 400px;
+  height: 48px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: $ff-main-font;
+  font-weight: 400;
+  line-height: 24px;
+}
+.f-small {
+  width: 240px;
+  height: 48px;
+  box-sizing: border-box;
+}
+
+.f-large-input {
+  position: relative;
+  padding-left: 47px;
+  color: #c6ccd2;
+}
+.input-img {
+  position: absolute;
+  content: '';
+  top: 25px;
+  left: 15px;
+}
+
+.text-with-line {
+  overflow: hidden;
+  color: #b4bbc2;
+  &:before,
+  &:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 40%;
+    height: 2px;
+    background: #dee2e7;
+    border: solid #f2f5f8;
+    border-width: 0 10px;
+  }
+  &:before {
+    margin-left: -100%;
+  }
+  &:after {
+    margin-right: -100%;
+  }
+}
+  .pass-forgot {
+    text-align: start;
+    color: #b4bbc2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+
+  .select {
+    margin-top:12px;
+    width: 260px;
+    height: 48px;
+    border: none;
+
+  }
+  .select-info {
+    background: $info-main-color;
+    &:hover {
+      background: $info-darker-color;
+    }
+    &:active {
+      background: $info-lighter-color;
+    }
+  }
+  .select-warning,.select-warning-m {
+    background: $warning-main-color;
+    &:hover {
+      background: $warning-darker-color;
+    }
+    &:active {
+      background: $warning-lighter-color;
+    }
+  }
+
+

@@ -1,0 +1,42 @@
+section.large-form.container
+    .form-wrapper-1-of-2
+        .form-header
+            img(src="../images/photo-header-1.jpg")
+            span.form-l-header_text SIGN UP
+            a.form-header_link(href='#') Alredy Registered?
+        form.form.form-sign-up
+            .input-container
+                input.f-large.f-large-input(type="email" name="email" placeholder="E-mail or Login")
+                img.input-img(src="../images/e-mail-icon.svg")
+            .input-container
+                input.f-large.f-large-input(type="password" name="pass" placeholder="Password")
+                img.input-img(src="../images/lock-icon.svg")
+            span Forgot password?
+            button.btn.btn-info.rounded-border.f-large Sign Up
+            br
+            span.text-with-line OR
+            .btn-container
+                button.btn.rounded-border.btn-facebook.btn-form-l Login via Facebook
+                button.btn.rounded-border.btn-twitter.btn-form-l Login via Twitter
+
+    .form-wrapper-1-of-2
+        .form-header
+            img(src="../images/photo-header-2.jpg")
+            span.form-l-header_text SIGN IN
+            a.form-header_link(href='#') Create an Account
+        form.form.form-sign-in
+            .input-container
+                input.f-large.f-large-input(type="email" name="email" placeholder="E-mail or Login")
+                img.input-img(src="../images/e-mail-icon.svg")
+            .input-container
+                input.f-large.f-large-input(type="password" name="pass" placeholder="Password")
+                img.input-img(src="../images/lock-icon.svg")
+            .input-container.pass-forgot
+                input(type="checkbox" id="check")
+                label.checkbox-success(for="check") Remember password?
+            button.btn.btn-success.rounded-border.f-large.f-large-sign-in Sign In
+            br
+            span.text-with-line OR
+            .btn-container
+                button.btn.rounded-border.btn-facebook.btn-form-l Login via Facebook
+                button.btn.rounded-border.btn-twitter.btn-form-l Login via Twitter

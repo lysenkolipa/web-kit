@@ -1,0 +1,37 @@
+section.form-payment.container
+    .form-payment_body
+        .form-container-1-of-2
+            .form-header
+                span.form-header_text PAYMENT METHOD
+                label() Credit Card
+                    input.input-card(type="text" placeholder="6594")
+                    input.input-card(type="text" placeholder="6594")
+                    input.input-card(type="text" placeholder="6594")
+                    input.input-card(type="text" placeholder="6594")
+                label() Cardholder Name
+                    input.f-contact-input(type="text")
+
+                Label() Expire
+                    select.select-warning-m
+                        option Month
+                        option January
+                        option February
+                    select.select-warning-m
+                        option Year
+                        option 2018
+                        option 2017
+                Label() Expire
+                    input.input-card(type="text")
+        .form-container-1-of-2
+            .form-header
+                span.form-header_text BILLING ADDRESS
+            .form-payment-check
+                input(type="checkbox" id="ship-add")
+                label.checkbox-success(for="ship-add") Same as shipping address
+            p.form-payment_text A hundred thousand grateful loves to your dear papa and mamma.
+            |Is your poor brother recovered of his rack-punch? Oh, dear! Oh, dear! How men should beware of wicked punch!
+    .shopping-cart_footer
+        a.footer-link_return(href="#") Continue Shopping
+            img.footer-link_img(src="../images/back-icon-blue.svg" alt="back-icon")
+        button.btn.medium.rounded-border.btn-success.footer-btn-l(type="submit") Payment method
+            img.footer-btn_img(src="../images/forward-icon.svg" alt="menu-img")

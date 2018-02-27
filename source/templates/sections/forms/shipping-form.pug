@@ -1,0 +1,59 @@
+section.form-shipping.container
+    .form-shipping-address
+        .form-shipping_header
+            span.form-contact_header-text Shipping Address
+        form.form
+            .form-shipping_container
+                .form-contact_wrapper
+                    label(for="country") Select Country
+                    br
+                    select.select.select-warning.rounded(id="country")
+                        option USA
+                        option Canada
+                        option Germany
+                .form-contact_wrapper
+                    label(for="name") State, Region, Province
+                    br
+                    input.f-contact-input(type="text" id="name" name="state" placeholder="California")
+                .form-contact_wrapper
+                    label(for="add1") Address 1
+                    br
+                    input.f-contact-input(type="text" id="add1" name="address1")
+                .form-contact_wrapper
+                    label(for="city") Select Country
+                    br
+                    select.select.select-warning.rounded(id="city")
+                        option USA
+                        option Canada
+                        option Germany
+                .form-contact_wrapper
+                    label(for="zip") ZIP Code
+                    br
+                    input.f-contact-input(type="number" id="zip" name="state" placeholder="95661")
+                .form-contact_wrapper
+                    label(for="add2") Address 2
+                    br
+                    input.f-contact-input(type="text" id="add2" name="address2")
+    .form-contact-info
+        .form-shipping_header
+            span.form-contact_header-text Contact info
+        form.form
+            .form-shipping_container
+                .form-contact_wrapper
+                    label(for="fname") Full name
+                    br
+                    input.f-contact-input(type="text" id="fname" name="state" placeholder="California")
+                .form-contact_wrapper
+                    label(for="mail") E-mail
+                    br
+                    input.f-contact-input(type="email" id="mail" name="email")
+                .form-contact_wrapper
+                    label(for="phone") Phone
+                        br
+                        input.f-contact-input(type="tel" id="phone" name="phone")
+
+            .shopping-cart_footer
+                a.footer-link_return(href="#") Continue Shopping
+                    img.footer-link_img(src="../images/back-icon-blue.svg" alt="back-icon")
+                button.btn.medium.rounded-border.btn-success.footer-btn-l(type="submit") Payment method
+                    img.footer-btn_img(src="../images/forward-icon.svg" alt="menu-img")

@@ -24,26 +24,19 @@
         position: relative;
       }
     }
+  }
+}
 
 //////////TABLE////////////
-    .lists-table {
-      font-family: $ff-main-font, Arial, Helvetica, sans-serif;
-      text-align: center;
-      border-collapse: collapse;
-      width: 100%;
-      &:last-child {border-style:hidden;}
-      & td,
-      & th {
-        border-bottom: 2px solid #ddd;
-        padding: 8px;
-      }
-      & th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: gray;
-        color: white;
-      }
-    }
+.lists-table {
+  font-family: $ff-main-font, Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  &:last-child {border-style:hidden;}
+  & td {
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
   }
+
 }

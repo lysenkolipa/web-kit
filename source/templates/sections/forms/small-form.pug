@@ -1,0 +1,74 @@
+section.small-form.container
+    .form-wrapper-1-of-3
+        .form-header
+            span.form-s-header_text SIGN UP
+            a.form-s-header_link(href='#') Alredy Registered?
+        form.form.form-sign-up
+            .input-container
+                input.f-small.f-large-input(type="email" name="email" placeholder="E-mail or Login")
+                img.input-img(src="../images/e-mail-icon.svg")
+            .input-container
+                input.f-small.f-large-input(type="password" name="pass" placeholder="Password")
+                img.input-img(src="../images/lock-icon.svg")
+            span Forgot password?
+            button.btn.btn-info.rounded-border.f-small Sign Up
+            br
+            span.text-with-line OR
+            .btn-container
+                button.btn.rounded-border.btn-facebook.btn-form-s Facebook
+                    img.btn-img(src="../images/facebook-logo-small.svg")
+                button.btn.rounded-border.btn-twitter.btn-form-s Twitter
+                    img.btn-img(src="../images/twitter-logo-small.svg")
+
+    .form-wrapper-1-of-3
+        .form-header
+            span.form-s-header_text SIGN IN
+            a.form-s-header_link(href='#') Create an Account
+        form.form.form-sign-in
+            .input-container
+                input.f-small.f-large-input(type="email" name="email" placeholder="hello@creativeda.sh")
+                img.input-img(src="../images/e-mail-icon.svg")
+            .input-container
+                input.f-small.f-large-input(type="password" name="pass" placeholder=".......")
+                img.input-img(src="../images/lock-icon.svg")
+            //.input-container.pass-forgot
+            //    input(type="checkbox" id="check")
+            //    label.checkbox-success(for="check") Remember password?
+            .input-container.pass-forgot
+                input(type="checkbox" id="check1")
+                label.checkbox-success(for="check1") Remember password?
+            button.btn.btn-success.rounded-border.f-small.f-large-sign-in Sign In
+            br
+            span.text-with-line OR
+            .btn-container
+                button.btn.rounded-border.btn-facebook.btn-form-s.btn-sign-in Facebook
+                    img.btn-img(src="../images/facebook-logo-small.svg")
+                button.btn.rounded-border.btn-twitter.btn-form-s.btn-sign-in Twitter
+                    img.btn-img(src="../images/twitter-logo-small.svg")
+
+    .form-wrapper-1-of-3
+        .form-wrapper-1-in-1-of-3
+            .form-header
+                span.form-s-header_text RESET PASSWORD
+                a.form-s-header_link(href='#') Sign In
+            form.form.form-reset
+                .input-container
+                    input.f-small.f-large-input(type="email" name="email" placeholder="E-mail")
+                    img.input-img(src="../images/e-mail-icon.svg")
+                button.btn.btn-success.rounded-border.f-small.f-large-sign-in.btn-danger Reset
+
+        .form-wrapper-1-in-1-of-3
+            .form-header_subscribe
+                span.form-s-header_text SUBSCRIBING
+                p.form-s-text We will never send you spam or some other trash
+
+            form.form.form-subscribe
+                .input-container
+                    input.f-small.f-large-input.input-subscribe(type="email" name="email" placeholder="E-mail")
+                    img.input-img_subscribe(src="../images/e-mail-icon.svg")
+                .btn-wrapper-warning
+                    button.btn.btn-warning.rounded-border.btn-menu-m.f-small.f-large-sign-in.btn-danger.btn-subscribe
+                    img.btn-subscribe_img(src="../images/forward-icon.svg" alt="menu-img")
+
+
+
