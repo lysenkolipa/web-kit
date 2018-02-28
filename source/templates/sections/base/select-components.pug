@@ -17,24 +17,25 @@ section.select-components.container
                     a(href="#de") Germany
 
         .check-block
+            .radio-container
+                input.info-radio(type="radio" id="r-off" value="")
+                label.info-label-for-checkbox(for="r-off") Radiobutton Off
+            .radio-container
+                input.info-checkbox(type="radio" id="r-on" value="")
+                label.info-label-for-checkbox(for="r-on") Radiobutton On
+            .radio-container
+                input.info-checkbox(type="radio" id="r-dis" value="")
+                label.info-label-for-checkbox(for="r-dis") Radiobutton Disabled
+
             .check-container
-                input(type="radio" id="r-off" value="")
-                label(for="r-off") Radiobutton Off
+                input.success-checkbox(type="checkbox" id="c-off" value="")
+                label.success-label-for-checkbox(for="c-off") Checkbox Off
             .check-container
-                input(type="radio" id="r-on" value="")
-                label(for="r-on") Radiobutton On
+                input.success-checkbox(type="checkbox" id="c-on" value="")
+                label.success-label-for-checkbox(for="c-on") Checkbox On
             .check-container
-                input(type="radio" id="r-dis" value="")
-                label(for="r-dis") Radiobutton Disabled
-            .check-container
-                input(type="checkbox" id="c-off" value="")
-                label.checkbox-success(for="c-off") Checkbox Off
-            .check-container
-                input(type="checkbox" id="c-on" value="")
-                label.checkbox-success(for="c-on") Checkbox On
-            .check-container
-                input(type="checkbox" id="c-dis" value="")
-                label.checkbox-success(for="c-dis") Checkbox Disabled
+                input.success-checkbox(type="checkbox" id="c-dis" value="")
+                label.success-label-for-checkbox(for="c-dis") Checkbox Disabled
 
     .right-block-components
         .progress-bar-warning-container
