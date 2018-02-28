@@ -1,10 +1,44 @@
 .form-payment {
   margin-top: 24px;
   background: #f2f5f8;
-  color:#b4bbc2;
+  font-size: 16px;
+  font-family: $ff-main-font;
+  font-weight: 400;
+  line-height: 22px;
   border-radius: 5px;
-  padding: 21px 35px 30px 30px;
+  box-sizing: border-box;
 }
-.form-payment_body {
+.form-payment_wrapper {
   display: flex;
+}
+.form-payment_header-text,
+.total-amount {
+  color: #393635;
+}
+.form-container-1-of-2{
+  padding: 21px 35px 30px 30px;
+  width: 50%;
+}
+.form-container_wrapper-first {
+  padding-top: 53px;
+  color:#b4bbc2;
+}
+.form-payment_text {
+  color:#b4bbc2;
+}
+.form-payment_container {
+  padding-top: 10px;
+  color:#b4bbc2;
+}
+.form-payment_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px 30px 30px;
+}
+.total-container {
+  margin-top: 60%;
+  text-align: right;
+  color: #393635;
+  font-size: 24px;
+  font-weight: 400;
 }
