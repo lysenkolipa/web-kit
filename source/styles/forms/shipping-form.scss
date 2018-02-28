@@ -2,10 +2,31 @@
   margin-top: 24px;
   border-radius: 5px;
   background: #f2f5f8;
-  padding: 68px 35px 30px 30px;
+  color: $disabled-darker-color;
 }
 .form-shipping_container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 33px;
+}
+
+.form-shipping-address {
+  position: relative;
+  padding: 21px 35px 0px 30px;
+}
+.form-contact-info {
+  position: relative;
+  padding: 0px 35px 38px 30px;
+}
+
+.form-shipping_header-text {
+  text-transform: uppercase;
+  color: #393635;
+  padding-left: 21px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.form-contact_wrapper {
+  margin-bottom: 20px;
 }

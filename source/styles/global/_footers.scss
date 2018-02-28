@@ -1,0 +1,29 @@
+.form_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+  .footer-link_return {
+    color:$info-main-color;
+    position: relative;
+  }
+  .footer-link_img {
+    position: absolute;
+    top:2px;
+    left:-15px;
+  }
+
+  .footer-btn,
+  .footer-btn-l {
+    position: relative;
+  }
+  .footer-btn_img {
+    position: absolute;
+    top:15px;
+    right: 13px;
+  }
+
+.link-container {
+  padding-left: 15px;
+}

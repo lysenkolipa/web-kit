@@ -63,6 +63,11 @@ input {
   width:14px;
   height:10px;
 }
+.img-right-side-btn {
+  position: absolute;
+  top:20px;
+  right: 10px;
+}
 .input-with_active-btn,
 .input-with_disabled-btn {
   display: flex;
@@ -92,9 +97,7 @@ input {
     border-left: 2px solid $hover-secondary-btn-color;
   }
 }
-.btn-with-arrow {
-  width: 60px;
-}
+
 .input-with-btns {
   border-radius: unset;
   border-left:unset;

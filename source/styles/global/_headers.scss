@@ -1,0 +1,14 @@
+.form_header {
+  position: relative;
+}
+
+.form_header-text {
+  position: absolute;
+  content: '';
+  top: 21px;
+  left:21px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#393635;
+  text-transform: uppercase;
+}

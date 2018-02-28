@@ -1,94 +1,96 @@
 section.shopping-cart.container
-    .form-contact_header
-        span.form-contact_header-text CART
-    table.shopping-cart_table
-        tr.item
-            th Item
-            th Price
-            th Quantity
-            th Total
-        tr.item
-            td.item-info
-                .image
-                    img(src="../images/bag.jpg")
-                .description
-                    span Leather Bag
-            td
-                .total-price $199
-            td
-                .quantity
-                    .btn-container
-                        button.minus-btn(type='button', name='button')
-                            img(src="../images/minus-icon.svg")
-                    .input-container
-                        input(type='text', name='name', value='1' placeholder="Password")
-                    .btn-container
-                        button.plus-btn(type='button', name='button')
-                            img(src="../images/pluse-icon.svg")
-            td
-                .total-price $199
+    .form_header
+        span.form_header-text CART
+    .shopping-cart_body
+        table.shopping-cart_table
+            tr.item
+                th Item
+                th Price
+                th Quantity
+                th Total
+            tr.item
+                td.item-info
+                    .image
+                        img(src="../images/bag.jpg")
+                    .description
+                        span Leather Bag
+                td
+                    .total-price $199
+                td
+                    .quantity
+                        .btn-container
+                            button.minus-btn(type='button', name='button')
+                                img(src="../images/minus-icon.svg")
+                        .input-container
+                            input(type='text', name='name', value='1' placeholder="Password")
+                        .btn-container
+                            button.plus-btn(type='button', name='button')
+                                img(src="../images/pluse-icon.svg")
+                td
+                    .total-price $199
 
-        tr.item
-            td.item-info
-                .image
-                    img(src="../images/belt.jpg")
-                .description
-                    span Leather Belt
-                    br
-                    span Color:
-                        input(type='radio' id="warning1")
-                        input(type='radio' id="info1")
-                        input(type='radio' id="success1")
-                        input(type='radio' id="danger1")
-                        input(type='radio' id="black")
-            td
-                .total-price $49
-            td
-                .quantity
-                    .btn-container
-                        button.minus-btn(type='button', name='button')
-                            img(src="../images/minus-icon.svg")
-                    .input-container
-                        input(type='text', name='name', value='1' placeholder="1")
-                    .btn-container
-                        button.plus-btn(type='button', name='button')
-                            img(src="../images/pluse-icon.svg")
-            td
-                .total-price $98
-        tr.item
-            td.item-info
-                .image
-                    img(src="../images/bag.jpg")
-                .description
-                    span Leather Shoes
-                    br
-                    span Color:
-                        input(type='radio' id="warning2")
-                        input(type='radio' id="info2")
-                    span Size:
-            td
-                .total-price $199
-            td
-                .quantity
-                    .btn-container
-                        button.minus-btn(type='button', name='button')
-                            img(src="../images/minus-icon.svg")
-                    .input-container
-                        input(type='text', name='name', value='1' placeholder="1")
-                    .btn-container
-                        button.plus-btn(type='button', name='button')
-                            img(src="../images/pluse-icon.svg")
-            td
-                .total-price $199
-        tr
-            td(colspan="4" align="")
-                span Subtotal:
-                span $496
-    .shopping-cart_footer
-        a.footer-link_return(href="#") Continue Shopping
-            img.footer-link_img(src="../images/back-icon-blue.svg" alt="back-icon")
-        button.btn.medium.rounded-border.btn-success.footer-btn(type="submit") Order
-            img.footer-btn_img(src="../images/forward-icon.svg" alt="menu-img")
+            tr.item
+                td.item-info
+                    .image
+                        img(src="../images/belt.jpg")
+                    .description
+                        span Leather Belt
+                        br
+                        span Color:
+                            input(type='radio' id="warning1")
+                            input(type='radio' id="info1")
+                            input(type='radio' id="success1")
+                            input(type='radio' id="danger1")
+                            input(type='radio' id="black")
+                td
+                    .total-price $49
+                td
+                    .quantity
+                        .btn-container
+                            button.minus-btn(type='button', name='button')
+                                img(src="../images/minus-icon.svg")
+                        .input-container
+                            input(type='text', name='name', value='1' placeholder="1")
+                        .btn-container
+                            button.plus-btn(type='button', name='button')
+                                img(src="../images/pluse-icon.svg")
+                td
+                    .total-price $98
+            tr.item
+                td.item-info
+                    .image
+                        img(src="../images/bag.jpg")
+                    .description
+                        span Leather Shoes
+                        br
+                        span Color:
+                            input(type='radio' id="warning2")
+                            input(type='radio' id="info2")
+                        span Size:
+                td
+                    .total-price $199
+                td
+                    .quantity
+                        .btn-container
+                            button.minus-btn(type='button', name='button')
+                                img(src="../images/minus-icon.svg")
+                        .input-container
+                            input(type='text', name='name', value='1' placeholder="1")
+                        .btn-container
+                            button.plus-btn(type='button', name='button')
+                                img(src="../images/pluse-icon.svg")
+                td
+                    .total-price $199
+            tr
+                td(colspan="4" align="")
+                    span Subtotal:
+                    span $496
+        .form_footer
+            .link-container
+                a.footer-link_return(href="#") Continue Shopping
+                    img.footer-link_img(src="../images/back-icon-blue.svg" alt="back-icon")
+            button.btn.medium.rounded-border.btn-success.footer-btn(type="submit") Order
+                img.footer-btn_img(src="../images/forward-icon.svg" alt="menu-img")
 
 
 

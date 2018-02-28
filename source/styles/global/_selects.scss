@@ -1,0 +1,24 @@
+.select-container {
+  position: relative;
+  display: inline-block;
+}
+.select-container:after {
+  content: url("../images/open-icon.svg");
+  font-size: 12px;
+  position: absolute;
+  right: 8px;
+  top: 48px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.select,
+.select-m {
+  padding-right: 25px;
+  padding-left: 20px;
+  color:#ffffff;
+  -webkit-appearance: none;
+}

@@ -70,8 +70,13 @@
     width: 260px;
     height: 48px;
     border: none;
-
   }
+.select-m {
+  margin-top:12px;
+  width: 152px;
+  height: 48px;
+  border: none;
+}
   .select-info {
     background: $info-main-color;
     &:hover {
@@ -81,7 +86,7 @@
       background: $info-lighter-color;
     }
   }
-  .select-warning,.select-warning-m {
+  .select-warning {
     background: $warning-main-color;
     &:hover {
       background: $warning-darker-color;

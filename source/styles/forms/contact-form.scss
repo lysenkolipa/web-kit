@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-top:72px;
+  color:$disabled-darker-color;
 }
 .f-contact-input,
 .f-contact-select {
@@ -27,19 +28,7 @@
   border: 2px solid #c6ccd2;
   padding: 10px;
 }
-.form-contact_header {
-  position: relative;
-}
 .form-contact_container {
   display: flex;
   justify-content: space-between;
-}
-.form-contact_header-text {
-  position: absolute;
-  content: '';
-  top:20px;
-  left:21px;
-  font-size: 16px;
-  font-weight: 600;
-  color:#393635;
 }
