@@ -1,0 +1,38 @@
+.footer-inverse-small {
+  background: $inverse-main-color;
+}
+.footer-inverse-s {
+  padding: auto 39px auto 23px;
+
+}
+.footer-inverse_container {
+  display: flex;
+  justify-content: center;
+
+
+  .btn-round-s {
+    display: block;
+    position: relative;
+    margin: auto 10px;
+    & img {
+      position: absolute;
+      content: '';
+      top:10px;
+      left:11px;
+    }
+  }
+  .link-text {
+    color: #ffffff;
+    font-family: $ff-main-font;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  .footer-item {
+    margin: auto 15px;
+  }
+}
+small {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}

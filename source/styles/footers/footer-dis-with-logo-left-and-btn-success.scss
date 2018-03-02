@@ -1,0 +1,18 @@
+.footer-dis-with-logo-left-and-btn-success {
+  background: #f2f5f8;
+  .footer-container-1-of-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-container_contacts {
+    padding: 0;
+    width: 186px;
+  }
+  .footer-container_info {
+    width: 270px;
+    .footer-container_item-text {
+      margin: 0;
+      line-height: 22px;
+    }
+  }
+}

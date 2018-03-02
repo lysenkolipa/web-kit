@@ -1,0 +1,21 @@
+.footer-inverse-m {
+  background: $inverse-main-color;
+  color: #ffffff;
+
+  .footer-inverse_item {
+    margin-top: 0;
+  }
+  .subscribing-container {
+    margin-top: 16px;
+    padding-top: 5px;
+    .input-with_active-btn {
+      margin-top: 18px;
+      margin-bottom: 36px;
+
+    }
+    .footer-inverse-social {
+      margin-top: 20px;
+    }
+  }
+
+}

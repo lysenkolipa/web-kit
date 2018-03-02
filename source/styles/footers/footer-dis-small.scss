@@ -1,0 +1,25 @@
+.footer-dis-small {
+  background: #f2f5f8;
+  margin-top: 24px;
+  color:#383737;
+  font-size: 16px;
+  font-family: $ff-main-font;
+  font-weight: 400;
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    .address-list {
+      margin: 0;
+      padding: 0;
+    }
+  .footer-nav_link {
+    padding-right: 41px;
+  }
+}
+.footer-address_container {
+  width: 186px;
+}
+

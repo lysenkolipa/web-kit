@@ -76,6 +76,13 @@
   border-radius: 50% 50%;
   width: 36px;
 }
+.btn-rounded-s {
+  display: block;
+  border-radius: 5px;
+  width: 36px;
+  height: 36px;
+}
+
 .btn-menu-m {
   width: 48px;
 }
@@ -218,4 +225,12 @@
 }
 .footer-btn-l {
   width: 184px;
+}
+.footer-btn-success {
+  width: 140px;
+  height: 48px;
+}
+.footer-btn-warning {
+  width: 178px;
+  height: 48px;
 }

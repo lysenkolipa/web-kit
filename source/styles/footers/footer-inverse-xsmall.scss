@@ -1,0 +1,23 @@
+.footer-inverse-xsmall {
+  background: $inverse-main-color;
+
+  .icon-container {
+    display: flex;
+  }
+  .footer-xsmall {
+    margin-top: 24px;
+    padding: 30px auto 29px auto;
+  }
+}
+.footer-inverse-nav {
+  justify-content: space-around;
+  & a {
+    margin: auto 10px;
+    color:#ffffff;
+  }
+}
+.footer-inverse-social {
+  & a {
+    margin: auto 10px;
+  }
+}

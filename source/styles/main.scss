@@ -4,19 +4,21 @@
 
 @import "global/_mixins";
 @import "global/_variables";
-@import "global/_container";
 @import "global/_sizes";
 @import "global/common";
+@import "global/base";
 @import "global/_forms";
 @import "global/_checkboxes";
 @import "global/_dropdows";
 @import "global/_selects";
 @import "global/_footers";
 @import "global/_headers";
+@import "global/_social-icons";
 
 
 @import "base/style";
 @import "forms/style";
+@import "footers/style";
 
 
 
