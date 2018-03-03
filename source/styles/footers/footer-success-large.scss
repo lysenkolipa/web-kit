@@ -1,0 +1,30 @@
+.footer-success-large {
+  background: $success-main-color;
+  margin-top: 24px;
+  text-align: center;
+  font-family: $ff-main-font;
+  color:#ffffff;
+  h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58px;
+  }
+  .footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .footer-nav_link {
+    margin: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .form {
+    margin-top: 26px;
+    margin-bottom: 78px;
+  }
+  .copyright {
+    display: block;
+    margin-top: 28px;
+  }
+}
