@@ -1,0 +1,79 @@
+.blog-img {
+  .img-list {
+    display: flex;
+    li {
+      padding-right: 20px;
+    }
+  }
+  .blog-container {
+    padding-top: 28px;
+    padding-bottom: 25px;
+  }
+  .h-with-img {
+    position: relative;
+    padding-left: 150px;
+    &:before {
+      position: absolute;
+      content: url("../images/photo-rounded-large.jpg");
+      left:21px;
+      top:0;
+    }
+  }
+  .l-text {
+    padding-left: 150px;
+
+  }
+  .social-btns {
+    display: flex;
+  }
+
+  .link-btn_like,
+  .link-btn_share {
+    display: block;
+    width: 74px;
+    height: 36px;
+    border-radius: 6px;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 6px;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .link-btn_like {
+    background:$danger-main-color;
+    &:before {
+      position: absolute;
+      content: url("../images/like-icon.svg");
+      top:8px;
+      left:5px;
+    }
+  }
+  .link-btn_share {
+    background:$success-main-color;
+    &:before {
+      position: absolute;
+      content: url("../images/share-icon.svg");
+      top:8px;
+      left:5px;
+    }
+  }
+  .blog-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .comment-time {
+    position: relative;
+    color: $disabled-main-color;
+
+    &:before {
+      position: absolute;
+      content: url("../images/clock-icon.svg");
+      top:2px;
+      left: -25px;
+    }
+  }
+}

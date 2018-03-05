@@ -1,0 +1,72 @@
+.blog {
+  font-family: $ff-main-font;
+  color: $inverse-main-color;
+  font-weight: 400;
+}
+.blog-h1 {
+  font-size: 36px;
+  line-height: 48px;
+
+}
+.blog-h2 {
+  font-size: 26px;
+  line-height: 34px;
+}
+.blog-h3 {
+  font-size: 20px;
+  line-height: 22px;
+}
+.blog-h4 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.blog-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+.bold-text {
+  font-weight: bold;
+}
+.small-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+.l-text {
+  color: $disabled-darker-color;
+  font-size: 18px;
+  line-height: 24px;
+}
+.text-disabled {
+  color: $disabled-darker-color;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '\25CF';
+    font-size: 15px;
+    left:6px;
+  }
+}
+.text-info-without-dot {
+  color: $info-main-color;
+}
+.text-info {
+  color: $info-main-color;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '\25CF';
+    font-size: 15px;
+    left:6px;
+  }
+
+}
+.text-success {
+  color: $success-main-color;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '\25CF';
+    font-size: 15px;
+    left:6px;
+  }
+}
